@@ -1,0 +1,164 @@
+body {
+    background-color: #030303;
+    color: #fbfbfb;
+    font-family: Roboto;
+    background-image: url("img/darkbg.png"); /* Used under permission of A. Gavirlas --- https://gavirlas.com/ */
+}
+
+#container
+{
+    padding-top: 24px;
+    width: 1024px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#navigation
+{
+    padding: 8px;
+    margin-bottom: 24px;
+    height: 48px;
+    background-color: #0f0f0f; /* #0f0f0f; */
+    transition-timing-function: ease;
+    transition: 0.2s;
+}
+
+#header {
+    text-align: center;
+    margin-bottom: 24px;
+    font-family: Lato;
+    font-size: 64px;
+    padding: 24px;
+    width: 512px;
+    margin-right: auto;
+    margin-left: auto;
+    transition-timing-function: ease-in-out;
+    transition: 0.35s;
+}
+#header:hover
+{
+    font-size: 68px;
+    margin-top: -4px;
+    transition-timing-function: ease-in-out;
+    transition: 0.35s;
+    cursor: default;
+}
+
+.navItem{
+    margin-right: 8px;
+    float: left;
+    height: 22px;
+    min-width: 48px;
+    font-size: 18px;
+    padding: 13px;
+    transition-timing-function: ease;
+    transition: 0.2s;
+    text-align: center;
+}
+
+.navItem:hover{
+    background-color: #1f1f1f;
+    cursor: pointer;
+
+    transition-timing-function: ease;
+    transition: 0.2s;
+
+    color: #fff;
+}
+
+#navigation:hover{
+    transition-timing-function: ease-in-out;
+    transition: 0.35s;
+
+    margin-left: -8px;
+    margin-right: -8px;
+}
+
+.cardTitle{
+    margin-bottom: 18px;
+    font-size: 48px;
+}
+
+.card{
+    padding: 24px;
+    margin-bottom: 24px;
+    background-color: #0f0f0f;
+    transition-timing-function: ease-in-out;
+    transition: 0.35s;
+    min-height: 192px;
+    color: #fbfbfb
+}
+
+#games{
+    text-align: left;
+}
+
+#about{
+    text-align: left;
+}
+
+.card:hover{
+    transition-timing-function: ease-in-out;
+    transition: 0.35s;
+    margin-left: -8px;
+    margin-right: -8px;
+    padding-right: 40px;
+
+    color: #ffffff;
+}
+
+code{
+    font-family: "Roboto Mono";
+    color: #bfbfbf;
+}
+
+#footer{
+    margin-bottom: 24px;
+    text-align: center;
+
+    transition-timing-function: ease-in-out;
+    transition: 0.35s;
+
+    font-family: "Roboto Mono";
+    color: #bfbfbf;
+
+    width: 432px;
+
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#footer:hover{
+
+    cursor: default;
+    color: #e0e0e0;
+    size: 32px;
+
+    transition-timing-function: ease-in-out;
+    transition: 0.25s;
+
+
+}
+
+/*Links*/
+
+a:link{
+    color: #fff;
+    transition-timing-function: ease-in-out;
+    transition: 0.15s;
+}
+a:visited{
+    color: #fff;
+    transition-timing-function: ease-in-out;
+    transition: 0.15s;
+}
+a:hover{
+    color: rgb(43, 142, 255);
+    transition-timing-function: ease-in-out;
+    transition: 0.15s;
+}
+a:active{
+    color: rgb(0, 119, 255);
+    transition-timing-function: ease-in-out;
+    transition: 0.15s;
+}
