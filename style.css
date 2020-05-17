@@ -88,9 +88,37 @@ body {
     min-height: 192px;
     color: #fbfbfb
 }
+.photo{
+    width: 309px;
+    height: 309px;
+    overflow: hidden;
+    margin-right: 24px;
+    margin-bottom: 24px;
+    float: left;
+}
+.photoR{
+    width: 309px;
+    height: 309px;
+    overflow: hidden;
+    margin-bottom: 24px;
+    float: left;
+}
 
-#games{
+.photo img {
+    width: 309px;
+    height: 309px;
+}
+.photoR img {
+    width: 309px;
+    height: 309px;
+}
+#photography{
     text-align: left;
+    
+}
+#photo-container{
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #about{
